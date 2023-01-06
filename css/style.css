@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.678);
+    margin: 20px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+figcaption {
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 12px;
+}
+
+.nav-bg {
+    background-color: #111625;
+}
+
+.menu-home {
+    background-color: #111625;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 50px;
+    list-style: none;
+}
+
+.menu-home li {
+    display: inline;
+}
+
+.menu-home li a {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-home a:hover {
+    text-decoration: underline;
+
+}
+
+.menu-home li:last-child a {
+    float: right;
+    padding: 0%;
+}
+
+.title-page {
+    background-color: #341931;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.top-anuncio {
+    display: flex;
+    justify-content: center;
+}
+.top-anuncio img{
+    width: 100%;
+}
+
+.desc-top-anuncio {
+    margin: 10px;
+}
+
+.main-title-top {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+
+}
+
+.cred-autor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.autor-artigo {
+    list-style: none;
+}
+
+.autor-artigo li {
+    display: flex;
+}
+
+.img-link img {
+    width: 60px;
+    height: 58px;
+    margin: 5px;
+}
+
+.social-midia {
+    display: flex;
+    list-style: none;
+}
+
+.social-midia img {
+    width: 25px;
+    height: 25px;
+    margin: 15px 15px;
+}
+
+.orion-img {
+    display: block;
+    text-align: center;
+    margin: 40px;
+
+}
+
+.orion-img img {
+    width: 80%;
+}
